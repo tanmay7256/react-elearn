@@ -14,7 +14,7 @@ export const Login = () => {
 
     return (
         <>
-            <div class="container">
+            <div class="login-page container">
                 <h2>Login</h2>
                 <form>
                     <label for="email" id="email">Email:</label>

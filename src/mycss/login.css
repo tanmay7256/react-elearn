@@ -12,13 +12,13 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+.login-page h2 {
     text-align: center;
     margin-bottom: 20px;
     color: #245c9f;
 }
 
-form label {
+.login-page label {
     display: block;
     margin-bottom: 8px;
     color: #245c9f;

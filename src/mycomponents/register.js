@@ -28,7 +28,7 @@ export const Register = () => {
 
     return (
         <>
-            <div class="container">
+            <div class="register-page container">
                 <h2>Register</h2>
                 <form>
                     <label for="name">Name:</label>
