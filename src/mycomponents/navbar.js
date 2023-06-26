@@ -13,7 +13,8 @@ export const Navbar = () => {
                     <Link to="/register">Register</Link>
                     <Link to="/login">Login</Link>
                     <Link to="#">Courses</Link>
-                    <Link to="/dashboard">My Account</Link>
+                    <Link to="/dashboard">Dashboard</Link>
+                    <Link to="/profile">My Profile</Link>
                 </div>
             </nav>
         </>
