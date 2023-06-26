@@ -5,6 +5,7 @@ import { Homepage } from './mycomponents/home.js'
 import { Navbar } from './mycomponents/navbar'
 import { Footer } from './mycomponents/footer'
 import { Login } from './mycomponents/login'
+import { Course } from './mycomponents/course'
 import { Register } from './mycomponents/register'
 import { Dashboard } from './mycomponents/dashboard'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -18,7 +19,8 @@ function App() {
           <Route path="/" element={<><Homepage /> <Footer /></>} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/dashboard" element={<><Dashboard /> <Footer /></>} />
+          <Route path="/course" element={<><Course /> <Footer /></>} />
         </Routes>
       </Router>
     </>

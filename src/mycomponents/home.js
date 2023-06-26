@@ -3,6 +3,7 @@ import ai from '../images/ai.jpg';
 import appdev from '../images/appdev.jpeg';
 import data_science from '../images/data_science.jpg';
 import webd from '../images/webd.webp';
+import { Link } from "react-router-dom";
 export const Homepage = () => {
     return (
         <>
@@ -25,35 +26,35 @@ export const Homepage = () => {
                 <div className="stream-section-heading">
                     <h2>Explore Different Streams</h2>
                 </div>
-                <div className="stream-cards-container">
-                    <div className="stream-card">
+                <div className="stream-cards-container" to="/course">
+                    <Link className="stream-card">
                         <img src={data_science} alt="Data Science" />
                         <div className="stream-card-content">
                             <h3 className="stream-card-title">Data Science</h3>
                             <p className="stream-card-description">Learn the art of analyzing and interpreting complex data sets.</p>
                         </div>
-                    </div>
-                    <div className="stream-card">
+                    </Link>
+                    <Link className="stream-card" to="/course">
                         <img src={ai} alt="Artificial Intelligence" />
                         <div className="stream-card-content">
                             <h3 className="stream-card-title">Artificial Intelligence</h3>
                             <p className="stream-card-description">Discover the world of intelligent machines and algorithms.</p>
                         </div>
-                    </div>
-                    <div className="stream-card">
+                    </Link>
+                    <Link className="stream-card" to="/course">
                         <img src={webd} alt="Web Development" />
                         <div className="stream-card-content">
                             <h3 className="stream-card-title">Web Development</h3>
                             <p className="stream-card-description">Build dynamic websites and web applications using modern technologies.</p>
                         </div>
-                    </div>
-                    <div className="stream-card">
+                    </Link>
+                    <Link className="stream-card" to="/course">
                         <img src={appdev} alt="Mobile App Development" />
                         <div className="stream-card-content">
                             <h3 className="stream-card-title">Mobile App Development</h3>
                             <p className="stream-card-description">Create powerful mobile applications for iOS and Android platforms.</p>
                         </div>
-                    </div>
+                    </Link>
                 </div>
             </section>
 
